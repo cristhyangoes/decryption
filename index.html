@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/style.css">
+        <link rel="shortcut icon" href="assets/code.svg" />
+        <title>Decryption by cristhyangoes</title>
+    </head>
+    <body>
+        <header class="navigation">
+            <nav class="navigation-nav">
+                <img class="code-img" src="./assets/code.svg" width="80px">
+            </nav>
+        </header>
+        <main class="conteudo">
+            <section class="area-input">
+                <div class="area-texto">
+                    <textarea id="caixa-texto" placeholder="Insira seu texto" autofocus></textarea>
+                </div>
+                <div class="area-local-botoes">
+                    <div class="area-disclaimer">
+                        <img class="disclaimer" src="./assets/bi_exclamation-circle-fill.svg">
+                        <p>Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div class="area-botoes">
+                        <button onclick="criptografe()" class="botao-criptografar">Criptografar</button>
+                        <button onclick="descriptografe()" class="botao-descriptografar">Descriptografar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="local-mensagens">
+                <div class="mensagens">
+                    <div class="sem-mensagens">
+                        <img id="carinha" src="./assets/High quality products 1 1.svg">
+                        <p id="no-message">Nenhuma mensagem encontrada</p>
+                        <p id="no-message2">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                    <div class="area-resultado">
+                        <textarea id="result" readonly></textarea>
+                        <div class="area-copiar">
+                            <button onclick="copiar()" id="copiar">Copiar</button>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="rodape">
+            <div class="area-link">
+                <a class="link-github" href="https://github.com/cristhyangoes" target="_blank"><p>Desenvolvido por Cristhyan Goes:</p> <div class="div-git-texto"><img src="./assets/github.png"><p>GitHub</p></div></a>
+            </div>
+        </footer>
+        <script src="./scripts/script.js"></script>
+    </body>
+</html>
