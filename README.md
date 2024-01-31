@@ -10,9 +10,13 @@
 <hr>
 
 <h3>Responsividade:</h3>
-<h4>Tablet e Celular</h4>
+<h4>Tablet</h4>
 
-![decryption-image2](https://github.com/cristhyangoes/cristhyangoes/assets/119747846/0a9a83e1-4ce4-4a63-b7ed-cdb565bf7dc7)  ![decryption-image3](https://github.com/cristhyangoes/cristhyangoes/assets/119747846/682d4f61-3de9-43b7-94e4-a7245fdeda9b)
+![decryption-image2](https://github.com/cristhyangoes/cristhyangoes/assets/119747846/0a9a83e1-4ce4-4a63-b7ed-cdb565bf7dc7) 
+
+<h4>Celular</h4>
+
+![decryption-image3](https://github.com/cristhyangoes/cristhyangoes/assets/119747846/682d4f61-3de9-43b7-94e4-a7245fdeda9b)
 
 <hr>
 
